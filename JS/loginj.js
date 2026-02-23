@@ -96,8 +96,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
         localStorage.setItem('loggedInUser', JSON.stringify(user));
 
-        window.location.href = 'firstbranch.html';
+        window.location.href = 'FirstBranch.html';
     } else {
         errorDiv.textContent = "Invalid username or password.";
     }
+
 });
